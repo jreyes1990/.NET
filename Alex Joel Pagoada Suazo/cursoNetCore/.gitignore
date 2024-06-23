@@ -1,0 +1,200 @@
+# Compiled object files and libraries
+bin/
+obj/
+
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Logs
+*.log
+logs/
+
+# Visual Studio Code
+.vscode/
+.vscode/*
+
+# Rider
+.idea/
+.idea/*
+
+# Mac
+.DS_Store
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Compiled Dynamic libraries
+*.dll
+
+# Compiled Static libraries
+*.lib
+
+# Compiled Object files
+*.obj
+
+# Precompiled Headers
+*.pch
+
+# Precompiled Assemblies
+*.exe
+
+# Database
+*.mdf
+*.ldf
+*.ndf
+
+# Entity Framework
+*.edmx.sql
+*.diagram
+
+# Build results
+*.exe
+*.dll
+*.pdb
+*.app
+*.apk
+*.ap_
+*.o
+*.a
+*.appx
+*.appxbundle
+*.bat
+*.deploy
+*.dist
+*.eggs
+*.ipa
+*.jar
+*.js
+*.msi
+*.msm
+*.msp
+*.pbiviz
+*.ps1
+*.swf
+*.udf
+*.vsix
+*.wixlib
+*.wixobj
+*.xap
+*.xpi
+
+# Office Temp Files
+~$*
+~*.doc*
+
+# Windows thumbnail cache files
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs.db:encryptable
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Backup files
+*.bak
+*.bak2
+*.old
+*.org
+*.log
+
+# Packaging Directory
+Packaging/
+
+# MSTest test Results
+TestResults/
+
+# Coverage Directory used by tools like Visual Studio
+.vscode-test/
+
+# NPM
+node_modules/
+
+# Yarn
+.yarn/
+.yarncache/
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Optional npm cache directory
+.npm
+
+# Optional REPL history
+.node_repl_history
+
+# dotenv environment variables file
+.env
+.env.test
+
+# parcel-bundler cache (https://parceljs.org/)
+.cache
+
+# SvelteKit build / Svelte files
+.svelte-kit
+
+# Next.js build output
+.next
+out
+
+# Nuxt.js build / generated files
+.nuxt
+dist
+
+# Gatsby files
+.cache/
+public
+
+# Vuepress
+.vuepress/dist
+
+# vue
+dist/
+*.local
+
+# Serverless directories
+.serverless/
+
+# FuseBox cache
+.fusebox/
+
+# Django stuff:
+*.log
+*.pot
+*.pyc
+__pycache__/
+
+# Pyre type checker
+.pyre/
+
+# mypy
+.mypy_cache/
+
+# Pytest
+.cache
+.pytest_cache/
+__pycache__/
+
+# Environments
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
