@@ -1,6 +1,11 @@
-# .NET
-Curso completo de .NET
+# Alex Joel Pagoada Suazo
 
-    http://google.com/
+## Documentación de ASP.NET
+    https://learn.microsoft.com/es-es/aspnet/core/?view=aspnetcore-8.0
 
-        google.com
+- Descarga .NET
+    https://dotnet.microsoft.com/es-es/download
+
+- Información general sobre .NET en Linux
+    https://learn.microsoft.com/es-mx/dotnet/core/install/linux-ubuntu
+
