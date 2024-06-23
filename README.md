@@ -20,5 +20,6 @@
 
 ### Instrucciones
 Para ejecutar crear un proyecto de .NET debe realizar la siguiente instrucción en consola de Linux.
+
     dotnet new console -n cursoNetCore --use-program-main
 
