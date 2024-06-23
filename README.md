@@ -19,10 +19,10 @@
     https://learn.microsoft.com/es-mx/dotnet/core/tutorials/top-level-templates
 
 ### Instrucciones
-Para crear un proyecto de .NET debe realizar la siguiente instrucción en consola de Linux.
+Para crear un proyecto de .NET debe realizar lo siguiente en consola de Linux.
 
     dotnet new console -n cursoNetCore --use-program-main
 
-Para ejecutar un proyecto de .NET debe realizar la siguiente instrucción en consola de Linux.
+Para ejecutar un proyecto de .NET debe realizar lo siguiente en consola de Linux.
 
     dotnet run
