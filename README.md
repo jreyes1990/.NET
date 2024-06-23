@@ -19,4 +19,4 @@
     https://learn.microsoft.com/es-mx/dotnet/core/tutorials/top-level-templates
 
 * Para ejecutar crear un proyecto de .NET debe realizar la siguiente instrucción en consola de Linux:
-  - dotnet new console -n cursoNetCore --use-program-main
+    dotnet new console -n cursoNetCore --use-program-main
