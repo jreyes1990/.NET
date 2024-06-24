@@ -7,7 +7,8 @@ class Program
     String separador = "================";
     Program progra = new Program();
     // progra.functionTipoDato(separador);
-    progra.functionArray(separador);
+    // progra.functionArray(separador);
+    progra.functionCicloFor(separador);
   }
 
   public void functionTipoDato(String separador)
@@ -80,6 +81,27 @@ class Program
                                               }
                                             };
     Console.WriteLine("Longuitud doble: {0}, Posicion[1, 0, 2]: {1}, Posicion[0, 1, 1]: {2}", doble2.Length, doble2[1, 0, 2], doble2[0, 1, 1]);
+
+    Console.ReadLine();
+  }
+
+  public void functionCicloFor(String separador)
+  {
+    Console.WriteLine(separador + separador + separador + separador);
+    Console.WriteLine("Bucle Ciclo For:");
+    Console.WriteLine("Incremento:");
+
+    for (int i = 0; i < 10; i++)
+    {
+      Console.WriteLine("Posicion[{0}]", i);
+    }
+
+    Console.WriteLine("Decremento:");
+
+    for (int j = 10; j > 0; j--)
+    {
+      Console.WriteLine("Posicion[{0}]", j);
+    }
 
     Console.ReadLine();
   }
