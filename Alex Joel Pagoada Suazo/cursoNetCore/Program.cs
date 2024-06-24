@@ -62,6 +62,25 @@ class Program
 
     Console.WriteLine("Longuitud Age: {0}, Posicion[1]: {1}, Longuitud Ages: {2}, Posicion[3]: {3}", age.Length, age[2], ages.Length, ages[3]);
 
+    Console.WriteLine(separador + separador + separador + separador);
+    Console.WriteLine("Array multidimencional:");
+    Console.WriteLine("bidimencional:");
+    double[,] doble = new double[2, 2] {
+                                          {6, 3.0}, {6.3, 5.6}
+                                        };
+    Console.WriteLine("Longuitud doble: {0}, Posicion[1][0]: {1}, Posicion[0][1]: {2}", doble.Length, doble[1, 0], doble[0, 1]);
+
+    Console.WriteLine("tridimencional:");
+    double[,,] doble2 = new double[2, 2, 3]  {
+                                              {
+                                                {3, 6.9, 8.4}, {6.8, 4.6, 7.3}
+                                              },
+                                              {
+                                                {4.7, 5.2, 7.4}, {7.2, 6.7, 9.4}
+                                              }
+                                            };
+    Console.WriteLine("Longuitud doble: {0}, Posicion[1, 0, 2]: {1}, Posicion[0, 1, 1]: {2}", doble2.Length, doble2[1, 0, 2], doble2[0, 1, 1]);
+
     Console.ReadLine();
   }
 }
