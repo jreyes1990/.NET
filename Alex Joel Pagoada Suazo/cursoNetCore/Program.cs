@@ -36,6 +36,9 @@ class Program
 
   public void functionArray(String separador)
   {
+    Console.WriteLine(separador + separador + separador + separador);
+    Console.WriteLine("Array Tipo String:");
+
     string[] cadenas = new string[5];
     cadenas[0] = "Carmen";
     cadenas[1] = "Sherly";
@@ -43,8 +46,22 @@ class Program
     cadenas[3] = "Alberto";
     cadenas[4] = "Jolberth";
     string[] name = { "Carmen", "Alberto", "Michael", "Sherly", "Jolberth" };
-    Console.WriteLine(separador + separador + separador + separador);
+
     Console.WriteLine("Longuitud Cadena: {0}, Posicion[1]: {1}  Name: {2}, Posicion[1]: {3}", cadenas.Length, cadenas[1], name.Length, name[1]);
+
+    Console.WriteLine(separador + separador + separador + separador);
+    Console.WriteLine("Array Tipo Int:");
+
+    int[] age = new int[5];
+    age[0] = 5;
+    age[1] = 15;
+    age[2] = 50;
+    age[3] = 55;
+    age[4] = 95;
+    int[] ages = { 5, 15, 50, 95, 55 };
+
+    Console.WriteLine("Longuitud Age: {0}, Posicion[1]: {1}, Longuitud Ages: {2}, Posicion[3]: {3}", age.Length, age[2], ages.Length, ages[3]);
+
     Console.ReadLine();
   }
 }
