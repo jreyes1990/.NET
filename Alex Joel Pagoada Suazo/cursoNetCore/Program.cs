@@ -103,6 +103,15 @@ class Program
       Console.WriteLine("Posicion[{0}]", j);
     }
 
+    Console.WriteLine(separador + separador + separador + separador);
+    Console.WriteLine("Bucle Ciclo ForEach:");
+    string[] name = { "Carmen", "Alberto", "Michael", "Sherly", "Jolberth" };
+
+    foreach (var item in name)
+    {
+      Console.WriteLine("Nombre: {0}", item);
+    }
+
     Console.ReadLine();
   }
 }
